@@ -1,0 +1,72 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding:10px;
+    text-align: center;
+}
+
+.container h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:2rem;
+}
+
+.container p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:1.2rem;
+}
+
+.containerBtn{
+    width:150px;
+    height:35px;
+    margin:15px;
+    border-radius: 8px;
+    border:2px solid #0072ff;
+    color:#0072ff;
+    background-color: white;
+    transition:0.3s;
+}
+
+.containerBtn:hover{
+    background-color: #0072ff;
+    color:white;
+}
+
+@media (max-width:1050px) and (min-width:750px){
+    .container{
+        width:60%;
+        margin:auto;
+    }
+    .container h2{
+        font-size:3vw;
+    }
+    .container p{
+        font-size:1.9vw;
+    }
+}
+
+@media (max-width:750px) and (min-width:500px){
+    .container{
+        width:60%;
+        margin:auto;
+    }
+    .container h2{
+        font-size:4vw;
+    }
+    .container p{
+        font-size:2.5vw;
+    }
+}
+
+@media (max-width:500px){
+    .container h2{
+        font-size:5vw;
+    }
+    .container p{
+        font-size:3.5vw;
+    }
+}

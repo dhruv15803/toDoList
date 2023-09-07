@@ -1,0 +1,144 @@
+
+.pendingContainer{
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: #efefef;
+    width:50%;
+    margin:auto;
+    border:none;
+}
+
+.pendingItem{
+    margin:5px 0px;
+    padding:8px;
+}
+
+.pendingItem p{
+    margin-left:10px;
+    margin-bottom:10px;
+    font-size:1.2rem;
+}
+
+
+.itemBtns{
+    display: flex;
+    flex-direction: row;
+}
+
+.itemBtn{
+    background-color: white;
+    color:#0072ff;
+    width:150px;
+    height:30px;
+    margin:5px 10px;
+    border-radius: 8px;
+    border:2px solid #0072ff;
+    transition: 0.3s;
+}
+
+.itemBtn:hover{
+    background-color: #0072ff;
+    color:white
+}
+
+.addTasksContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    width:50%;
+    margin:auto;
+    margin-bottom:15px;
+}
+
+.addTasksContainer p{
+    margin-left:10px;
+}
+
+.inputBox{
+    width:60%;
+    height:30px;
+    padding:0px 10px;
+    font-size:1rem;
+}
+
+.addTaskBtn{
+    width:150px;
+    height:35px;
+    margin-left:10px;
+    border-radius: 8px;
+    border:2px solid #0072ff;
+    background-color: white;
+    color:#0072ff;
+    transition:0.3s;
+}
+
+.addTaskBtn:hover{
+    background-color: #0072ff;
+    color:white;
+}
+
+
+.emptyFieldText{
+    display: flex;
+    width:50%;
+    margin:auto;
+    margin-bottom:10px;
+    height:30px;
+    justify-content: center;
+    color:red;
+}
+
+.alreadyInListMessage{
+    display: flex;
+    width:50%;
+    margin:auto;
+    margin-bottom:10px;
+    height:30px;
+    justify-content: center;
+    color:red;
+}
+
+.parentPendingContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.clearPendingBtn{
+    width:150px;
+    margin: auto;
+    margin-top:15px;
+    height:35px;
+    border-radius: 8px;
+    background-color: white;
+    border:2px solid #0072ff;
+    color:#0072ff;
+    transition:0.3s;
+}
+
+.clearPendingBtn:hover{
+    background-color: #0072ff;
+    color:white;
+}
+
+
+@media (max-width:1050px){
+
+    .addTasksContainer{
+        width:70%;
+    }
+
+    .inputBox{
+        width:100%;
+    }
+
+    .pendingContainer{
+        width:80%;
+    }
+    .pendingItem p{
+        font-size:1rem;
+    }
+}

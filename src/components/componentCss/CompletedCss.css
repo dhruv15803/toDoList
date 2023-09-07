@@ -1,0 +1,60 @@
+
+.completedContainer{
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: #efefef;
+    width:50%;
+    margin:auto;
+    border:none;
+}
+
+h2{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.completedItem{
+    margin:5px 0px;
+    padding:8px;
+}
+
+.completedItem p{
+    margin-left:10px;
+    margin-bottom:10px;
+    font-size:1.2rem;
+}
+
+.completedTaskBtn{
+    width:150px;
+    height:30px;
+    background-color: white;
+    border:2px solid #0072ff;
+    color:#0072ff;
+    transition:0.3s;
+    border-radius: 8px;
+    margin-top:10px;
+}
+
+.completedTaskBtn:hover{
+    background-color: #0072ff;
+    color:white;
+
+}
+
+
+@media (max-width:1050px){
+
+    .completedContainer{
+        width:70%;
+    }
+    .completedItem p{
+        font-size:1rem;
+    }
+}
+
+
+
+
+
+
